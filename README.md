@@ -5,6 +5,7 @@ Initial video was taken from [here](https://www.pexels.com/video/cars-on-the-roa
 # Sparse-Optical-Flow
 The goal is to calculate sparse optical flow for a video with moving cars using Lucas-Kanade algorithm. The actual calculation will be performed by **cv2.calcOpticalFlowPyrLK**
 You can find more info about this function in opencv [documentation](https://docs.opencv.org/3.4/dc/d6b/group__video__track.html#ga473e4b886d0bcc6b65831eb88ed93323)
+For the choice of the key pixels to follow, the Harris or Shi-Tomasi method can be used.
 If you want to read more about algorithm we will use, please, refer to [Pyramidal Implementation of the Ane Lucas Kanade Feature TrackerDescription of the algorithm](https://pdfs.semanticscholar.org/aa97/2b40c0f8e20b07e02d1fd320bc7ebadfdfc7.pdf) paper.  
 ![alt text](https://media.giphy.com/media/RJ1HpGFPAo0gKPAGBs/giphy.gif)
 
